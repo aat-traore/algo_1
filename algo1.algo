@@ -1,0 +1,34 @@
+ALGORITHM algo1
+VAR
+i:INTEGER:=0;
+text:STRING;
+nb_car:INTEGER:=0;
+nb_v:INTEGER:=0;
+nb_mot:INTEGER:=0;
+esp:CHAR
+BEGIN
+write("please enter a text")
+Read(text);
+nb_car:=text.length
+write(nb_car)
+FOR i FROM 1 TO text.length STEP step  DO
+  IF (text[i]==="" or text[i]===",;'().''& [" )THEN
+    nb_mot= nb_e + 1
+END_IF
+END_FOR
+
+write (nb_mot)
+
+FOR i FROM 0 TO text.length STEP step  DO
+    IF (text[i]==="a" or text[i]==="o" or text[i]==="i" 
+    or text[i]==="u" text[i]==="e" or text[i]==="y" ) THEN
+        nb_v = nb_v+1
+    END_IF
+    write (nb_v)
+END_FOR
+
+END
+
+
+
+
