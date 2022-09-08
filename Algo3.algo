@@ -1,0 +1,9 @@
+PROCEDURE dot_product(VAR ps,v1,v2:INTEGER)
+    
+BEGIN
+Read(v1[i],v2[i])
+FOR i FROM 0 TO v2 STEP step  DO
+    ps=v1[i]*v2[i]
+    i++
+END_WHILE
+END
